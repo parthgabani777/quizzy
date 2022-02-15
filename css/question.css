@@ -1,6 +1,5 @@
 .question-container{
       width: fit-content;
-      min-width: 50rem;
       max-width: 50%;
       margin: auto;
       font-size: 1.6rem;
@@ -56,4 +55,11 @@
 
 .question-footer{
       text-align: right;
+}
+
+@media only screen and (max-width:768px){
+      .question-container{
+            max-width: 100%;
+            padding: var(--spacing-s);
+      }
 }
