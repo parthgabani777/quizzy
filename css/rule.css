@@ -36,6 +36,7 @@
       border-radius: 2rem;
       background-color: var(--warning-color);
       color: var(--secondary-color);
+      width: fit-content;
 }
 .quiz-start-btn:hover{
       cursor: pointer;

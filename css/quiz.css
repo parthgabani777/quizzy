@@ -21,3 +21,6 @@
       cursor: pointer;
       opacity: 0.85;
 }
+.question-footer{
+      padding-top: var(--spacing-s);
+}
